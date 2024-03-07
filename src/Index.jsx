@@ -7,6 +7,7 @@ import {
     IconBrandInstagram,
     IconBrandSpotify,
     IconBrandTwitterFilled,
+    IconBrandYoutube,
     IconBrandYoutubeFilled,
     IconChartArrowsVertical,
     IconFileBarcode,
@@ -26,6 +27,16 @@ const links = [
         icon: <IconFileBarcode size={28} />
     },
     {
+        title: "Press Kit",
+        link: "https://otafe.st/press",
+        icon: <IconPencil size={28} />
+    },
+    {
+        title: "Statistics",
+        link: "https://stats.otafest.com",
+        icon: <IconChartArrowsVertical size={28} />
+    },
+    {
         title: "Podcast (Apple)",
         link: "https://otafe.st/podcastapple",
         icon: <IconBrandApplePodcast size={28} />
@@ -36,14 +47,9 @@ const links = [
         icon: <IconBrandSpotify size={28} />
     },
     {
-        title: "Press Kit",
-        link: "https://otafe.st/press",
-        icon: <IconPencil size={28} />
-    },
-    {
-        title: "Statistics",
-        link: "https://stats.otafest.com",
-        icon: <IconChartArrowsVertical size={28} />
+        title: "Podcast (YouTube)",
+        link: "https://otafe.st/podcastyoutube",
+        icon: <IconBrandYoutube size={28} />
     },
 ]
 
